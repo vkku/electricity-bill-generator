@@ -1,0 +1,33 @@
+{
+  "name": "electricity-bill-generator",
+  "version": "1.0.0",
+  "description": "Generate Electricity Bill with KWH readings",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint --fix --ignore-path .gitignore ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkku/electricity-bill-generator.git"
+  },
+  "keywords": [
+    "ebill"
+  ],
+  "author": "contactviku@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vkku/electricity-bill-generator/issues"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "homepage": "https://github.com/vkku/electricity-bill-generator#readme",
+  "dependencies": {
+    "eslint": "^7.28.0",
+    "fastify": "^3.17.0",
+    "got": "^11.8.2",
+    "mongodb": "^3.6.9"
+  }
+}
